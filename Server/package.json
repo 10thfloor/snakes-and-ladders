@@ -1,0 +1,24 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development nodemon --debug --inspect ./server/server.js",
+    "start:prod": ""
+  },
+  "keywords": [],
+  "author": "MK <mackenzie@redacademy.com> (http://mackenziekieran.com)",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "express": "~4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.7.0",
+    "nconf": "^0.8.4"
+  }
+}
